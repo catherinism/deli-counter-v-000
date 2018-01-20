@@ -26,6 +26,6 @@ def now_serving(katz_deli)
 else
   katz_deli.shift
   katz_deli = name
-  puts  "Currently serving #{katz_deli}"
+  puts  "Currently serving #{person}"
 end
 end
