@@ -26,7 +26,7 @@ def now_serving(katz_deli)
 else
   katz_deli.shift
 
-  puts  "Currently serving #{katz_deli}."
+  puts  "Currently serving #{katz_deli.pop(-2)}."
 end
 katz_deli
 end
