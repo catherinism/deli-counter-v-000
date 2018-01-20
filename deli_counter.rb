@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def line(katz_deli)
 
@@ -25,7 +25,7 @@ def now_serving(katz_deli)
   puts  "There is nobody waiting to be served!"
 else
   katz_deli.each do |deli|
-  
+
   puts  "Currently serving #{person}"
 end
 end
